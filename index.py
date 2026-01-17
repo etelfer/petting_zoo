@@ -5,15 +5,15 @@ from swimming import Goldfish, Goose, Koi, Mallard, Swan
 from walking import Donkey, Goat, Llama, Sheep, Zebra
 
 
-miss_fuzz = Llama("Miss Fuzz", "Domestic Llama")
+miss_fuzz = Llama("Miss Fuzz", "Domestic Llama", "midday")
 
-eeyore = Donkey("Eeyore", "Donkey")
+eeyore = Donkey("Eeyore", "Donkey", "morning")
 
-vincent = Goat("Vincent", "Pygmy Goat")
+vincent = Goat("Vincent", "Pygmy Goat", "afternoon")
 
-marty = Zebra("Marty", "Plains Zebra")
+marty = Zebra("Marty", "Plains Zebra", "midday")
 
-shaun = Sheep("Shaun", "Merino Sheep")
+shaun = Sheep("Shaun", "Merino Sheep", "morning")
 
 bitey = Copperhead("Bitey", "Southern Copperhead")
 
@@ -35,18 +35,18 @@ ryan = Goose("Ryan", "Canada Goose")
 
 odette = Swan("Odette", "Mute Swan")
  
-print(miss_fuzz.name)
-print(eeyore.name)
-print(vincent.name)
-print(marty.name)
-print(shaun.name)
-print(bitey.name)
-print(wilbur.name)
-print(stretchy.name)
-print(popcorn.name)
-print(sally.name)
-print(quackers.name)
-print(goldie.name)
-print(kenji.name)
-print(ryan.name)
-print(odette.name)
+print(f'{miss_fuzz.name} the {miss_fuzz.species} is available to pet during the {miss_fuzz.shift} shift.')
+# print(eeyore.name)
+# print(vincent.name)
+# print(marty.name)
+# print(shaun.name)
+# print(bitey.name)
+# print(wilbur.name)
+# print(stretchy.name)
+# print(popcorn.name)
+# print(sally.name)
+# print(quackers.name)
+# print(goldie.name)
+# print(kenji.name)
+# print(ryan.name)
+# print(odette.name)
