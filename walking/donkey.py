@@ -1,3 +1,5 @@
+from datetime import date
+
 class Donkey:
     def __init__(self, name, species):
         # Establish the properties of each animal

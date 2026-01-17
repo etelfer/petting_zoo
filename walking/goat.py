@@ -1,3 +1,5 @@
+from datetime import date
+
 class Goat: 
     def __init__(self, name, species):
         # Establish the properties of each animal

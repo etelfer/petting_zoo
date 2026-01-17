@@ -1,95 +1,9 @@
 # import the python datetime module to help us create a timestamp
 from datetime import date
+from slithering import Anaconda, Copperhead, CornSnake, RatSnake, Salamander
+from swimming import Goldfish, Goose, Koi, Mallard, Swan
+from walking import Donkey, Goat, Llama, Sheep, Zebra
 
-class Copperhead:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class RatSnake:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class Anaconda:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class CornSnake:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class Salamander:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.slithering = True
-
-class Mallard:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-
-class Goldfish:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-
-class Koi:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-
-class Goose:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
-
-class Swan:
-    def __init__(self, name, species):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        self.date_added = date.today()
-        self.swimming = True
 
 miss_fuzz = Llama("Miss Fuzz", "Domestic Llama")
 
