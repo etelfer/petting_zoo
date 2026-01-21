@@ -36,18 +36,33 @@ ryan = Goose("Ryan", "Canada Goose", "Goose Feed")
 odette = Swan("Odette", "Mute Swan", "Swan Feed")
  
 print(f'{miss_fuzz.name} the {miss_fuzz.species} is available to pet during the {miss_fuzz.shift} shift.')
+
 miss_fuzz.feed()
-# print(eeyore.name)
-# print(vincent.name)
-# print(marty.name)
-# print(shaun.name)
-# print(bitey.name)
-# print(wilbur.name)
-# print(stretchy.name)
-# print(popcorn.name)
-# print(sally.name)
-# print(quackers.name)
-# print(goldie.name)
-# print(kenji.name)
-# print(ryan.name)
-# print(odette.name)
+
+print(eeyore.name)
+
+print(vincent.name)
+
+print(marty.name)
+
+print(shaun.name)
+
+print(bitey.name)
+
+print(wilbur.name)
+
+print(stretchy.name)
+
+print(popcorn.name)
+
+print(sally.name)
+
+print(quackers.name)
+
+print(goldie.name)
+
+print(kenji.name)
+
+print(ryan.name)
+
+print(odette.name)
